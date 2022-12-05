@@ -1,3 +1,5 @@
+import mysql.connector
+
 from conexao import *
 
 #input de dados
@@ -21,5 +23,7 @@ comando_create = f"""INSERT INTO cadastros (nome_completo, telefone, email) VALU
 cursor.execute (comando_create) #cursor vai excutar o comando
 conexao.commit() #quando edita o banco de dados
 
+    except conexao  as error:
+        print("Telefone já cadastro", error)
 cursor.close()
 conexao.close()
