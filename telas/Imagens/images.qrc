@@ -1,0 +1,21 @@
+<RCC>
+  <qresource prefix="Logo">
+    <file>Icone GoldCoins pqn.png</file>
+    <file>IconeGoldCoins.png</file>
+  </qresource>
+  <qresource prefix="Botoes">
+    <file>BotaoCadastro.png</file>
+    <file>BotaoCadastro2.png</file>
+    <file>BotaoCancelar.png</file>
+    <file>BotaoCancelar2.png</file>
+    <file>BotaoConfirmar.png</file>
+    <file>BotaoConfirmar2.png</file>
+    <file>BotaoProsseguir.png</file>
+    <file>BotaoProsseguir2.png</file>
+    <file>BotaoSair.png</file>
+    <file>BotaoStart.png</file>
+    <file>BotaoStart2.png</file>
+    <file>BotaoVoltar.png</file>
+    <file>Entrar.png</file>
+  </qresource>
+</RCC>
