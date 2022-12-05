@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TelaInicial</class>
+ <widget class="QMainWindow" name="TelaInicial">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1005</width>
+    <height>694</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>GoldCoins</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="top">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 190, 119);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="container">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 190, 119);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QFrame" name="main">
+         <property name="maximumSize">
+          <size>
+           <width>450</width>
+           <height>650</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255); border-radius: 10px;</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <widget class="QPushButton" name="StartButton">
+          <property name="geometry">
+           <rect>
+            <x>125</x>
+            <y>320</y>
+            <width>201</width>
+            <height>71</height>
+           </rect>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>201</width>
+            <height>75</height>
+           </size>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+	
+	background-image: url(:/Botoes/BotaoStart.png);
+	background-repeat: norepeat;
+}
+
+QPushButton:hover {
+	
+	background-image: url(:/Botoes/BotaoStart2.png);
+	background-repeat: norepeat;
+}
+
+</string>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+         <widget class="QFrame" name="Logo">
+          <property name="geometry">
+           <rect>
+            <x>80</x>
+            <y>70</y>
+            <width>291</width>
+            <height>201</height>
+           </rect>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>291</width>
+            <height>201</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-repeat: norepeat;
+background-image: url(:/Logo/IconeGoldCoins.png);</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+         </widget>
+         <widget class="QLabel" name="label_12">
+          <property name="geometry">
+           <rect>
+            <x>130</x>
+            <y>480</y>
+            <width>201</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>201</width>
+            <height>31</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(72, 63, 51);
+font-weight: bold;</string>
+          </property>
+          <property name="text">
+           <string>Já está cadastrado?</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="LoginButton">
+          <property name="geometry">
+           <rect>
+            <x>180</x>
+            <y>520</y>
+            <width>101</width>
+            <height>41</height>
+           </rect>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+background-color: #fff;
+color: #81BAFD;
+border-radius: 5px;
+border: 2px solid #81BAFD;
+font-weight: bold;
+font-size: 18px;
+}
+
+</string>
+          </property>
+          <property name="text">
+           <string>Entrar</string>
+          </property>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QFrame" name="bot">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(251, 190, 119);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Imagens/images.qrc"/>
+ </resources>
+ <connections/>
+</ui>
