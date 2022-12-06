@@ -15,4 +15,3 @@ def cotacaobitcon():
     printdacotacaobitcoin = print("\n Cotação do Bitcoin/Real Brasileiro: R$",cotacao_bitcoin)
 
 
-print("\n Cotações sem formatação: \n",cotacoes)
