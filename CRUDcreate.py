@@ -19,11 +19,14 @@ def numConcat(ddd, telefone):
 add_telefone = (numConcat(ddd, telefone))
 
 #Create
-comando_create = f"""INSERT INTO cadastros (nome_completo, telefone, email) VALUES ('{add_nome_completo}', '{add_telefone}', '{add_email}')""" #comando do SQL pra inserir informação no BD
-cursor.execute (comando_create) #cursor vai excutar o comando
-conexao.commit() #quando edita o banco de dados
+try:
+    comando_create = f"""INSERT INTO cadastros (nome_completo, telefone, email) VALUES ('{add_nome_completo}', '55{add_telefone}', '{add_email}')""" #comando do SQL pra inserir informação no BD
+    cursor.execute (comando_create) #cursor vai excutar o comando
+    conexao.commit() #quando edita o banco de dados
+except mysql.connector.Error as Err:
+    if err.errno == 1062:
+        print("Telefone já cadastrado, tente novamente!")
+    else: raise
 
-    except conexao  as error:
-        print("Telefone já cadastro", error)
 cursor.close()
 conexao.close()
