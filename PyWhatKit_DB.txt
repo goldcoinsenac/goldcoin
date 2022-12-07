@@ -1,0 +1,120 @@
+Date: 7/12/2022
+Time: 11:37
+Phone Number: +5587988316051
+Message: esse é um teste, estou enviado essa mensagem do Python.
+--------------------
+Date: 7/12/2022
+Time: 11:39
+Phone Number: +5587988316051
+Message: esse é um teste, estou enviado essa mensagem do Python.
+--------------------
+Date: 7/12/2022
+Time: 11:42
+Phone Number: +5587988316051
+Message: Esse é um teste, essa mensagem foi enviada automaticamente da API
+--------------------
+Date: 7/12/2022
+Time: 11:43
+Phone Number: +5587988316051
+Message: Esse é um teste, essa mensagem foi enviada automaticamente da API
+--------------------
+Date: 7/12/2022
+Time: 11:44
+Phone Number: +5587988316051
+Message: Esse é um teste, essa mensagem foi enviada automaticamente da API
+--------------------
+Date: 7/12/2022
+Time: 11:44
+Phone Number: +5587988316051
+Message: Esse é um teste, essa mensagem foi enviada automaticamente da API
+--------------------
+Date: 7/12/2022
+Time: 11:46
+Phone Number: +PROG. DE SISTEMAS 👨🏻‍💻📊🎯
+Message: Esse é um teste, essa mensagem foi enviada automaticamente da API
+--------------------
+Date: 7/12/2022
+Time: 11:47
+Group ID: PROG. DE SISTEMAS 👨🏻‍💻📊🎯
+Message: Esse é um teste, essa mensagem foi enviada automaticamente da API
+--------------------
+Date: 7/12/2022
+Time: 11:48
+Group ID: PROG. DE SISTEMAS 👨🏻‍💻📊🎯
+Message: Esse é um teste, essa mensagem foi enviada automaticamente da API
+--------------------
+Date: 7/12/2022
+Time: 11:51
+Phone Number: +5587988316051
+Message: Esse é um teste, essa mensagem foi enviada automaticamente da API
+--------------------
+Date: 7/12/2022
+Time: 11:53
+Phone Number: +5587988316051
+Message: Acabei de enviar essa mensagem
+--------------------
+Date: 7/12/2022
+Time: 11:54
+Phone Number: +5587988316051
+Message: Acabei de enviar essa mensagem
+--------------------
+Date: 7/12/2022
+Time: 11:54
+Phone Number: +5587988316051
+Message: teste 2
+--------------------
+Date: 7/12/2022
+Time: 11:55
+Phone Number: +5587988316051
+Message: teste 2
+--------------------
+Date: 7/12/2022
+Time: 11:56
+Phone Number: +5587988316051
+Message: teste 2
+--------------------
+Date: 7/12/2022
+Time: 11:56
+Phone Number: +5587988316051
+Message: teste 3
+--------------------
+Date: 7/12/2022
+Time: 11:57
+Phone Number: +5587988316051
+Message: teste 3
+--------------------
+Date: 7/12/2022
+Time: 11:57
+Phone Number: +5587988316051
+Message: teste 3
+--------------------
+Date: 7/12/2022
+Time: 11:58
+Phone Number: +5587988316051
+Message: teste 3
+--------------------
+Date: 7/12/2022
+Time: 11:59
+Phone Number: +5587988316051
+Message: teste 3
+--------------------
+Date: 7/12/2022
+Time: 12:0
+Phone Number: +5587988316051
+Message: teste 3
+--------------------
+Date: 7/12/2022
+Time: 12:1
+Phone Number: +5587988316051
+Message: teste 5
+--------------------
+Date: 7/12/2022
+Time: 12:3
+Phone Number: +5587988316051
+Message: teste 5
+--------------------
+Date: 7/12/2022
+Time: 12:3
+Phone Number: +5587988316051
+Message: teste 5
+--------------------

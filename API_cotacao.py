@@ -14,4 +14,4 @@ def cotacaobitcon():
     cotacao_bitcoin = cotacoes['BTCBRL']["bid"]
     printdacotacaobitcoin = print("\n Cotação do Bitcoin/Real Brasileiro: R$",cotacao_bitcoin)
 
-
+print(cotacaodolar())

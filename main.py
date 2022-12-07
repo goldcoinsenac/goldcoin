@@ -1,4 +1,4 @@
-#Convert the resulting py file
+#Tela inicial
 from GoldCoinsTelaVitoria import Ui_TelaVitoria
 import sys
 from PyQt5.QtWidgets import QMainWindow, QApplication

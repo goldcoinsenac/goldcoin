@@ -6,18 +6,18 @@ from random import randint
 pygame.init()
 
 pygame.mixer.music.set_volume(0.1)
-musica_de_fundo = pygame.mixer.music.load('arquivos_game/sons/mario.wav')
+musica_de_fundo = pygame.mixer.music.load('arquivos_game/Sons/track_back.wav')
 pygame.mixer.music.play(-1)
 
-barulho_colisao = pygame.mixer.Sound('arquivos_game/sons/colisao.wav')
+barulho_colisao = pygame.mixer.Sound('arquivos_game/Sons/colisao.wav')
 
 largura = 640
 altura = 480
-bg = pygame.image.load("arquivos_game/imagens/background.png")
+
 x_cobra = int(largura / 2)
 y_cobra = int(altura / 2)
 
-velocidade = 10
+velocidade = 7
 x_controle = velocidade
 y_controle = 0
 
@@ -41,7 +41,7 @@ def aumenta_cobra(lista_cobra):
         # XeY[0] = x
         # XeY[1] = y
 
-        bg = pygame.image.load("arquivos_game/imagens/background.png")
+        pygame.draw.rect(tela, (0, 255, 0), (XeY[0], XeY[1], 20, 20))
 
 
 def reiniciar_jogo():
@@ -57,11 +57,12 @@ def reiniciar_jogo():
     morreu = False
 
 
-while (pontos < 10):
+while (pontos < 6):
     relogio.tick(30)
-    tela.fill((255, 255, 255))
+    tela.fill((169, 169, 169))
 
     mensagem = f'Pontos: {pontos}'
+
     texto_formatado = fonte.render(mensagem, True, (0, 0, 0))
 
     for event in pygame.event.get():
@@ -99,7 +100,7 @@ while (pontos < 10):
     y_cobra = y_cobra + y_controle
 
     cobra = pygame.draw.rect(tela, (0, 255, 0), (x_cobra, y_cobra, 20, 20))
-    maca = pygame.draw.rect(tela, (255, 0, 0), (x_maca, y_maca, 20, 20))
+    maca = pygame.draw.rect(tela, (255, 255, 0), (x_maca, y_maca, 20, 20))
 
     if cobra.colliderect(maca):
         x_maca = randint(40, 600)
@@ -116,7 +117,7 @@ while (pontos < 10):
 
     if lista_cobra.count(lista_cabeca) > 1:
         fonte2 = pygame.font.SysFont('arial', 20, True, True)
-        mensagem = 'Game over! Pressione o botão direito do mouse'
+        mensagem = 'Game over! Pressione o butão direito do mouse'
         texto_formatado = fonte2.render(mensagem, True, (0, 0, 0))
         ret_texto = texto_formatado.get_rect()
         lista_de_eventos = pygame.event.get()
@@ -126,7 +127,7 @@ while (pontos < 10):
             tela.fill((255, 255, 255))
             for event in pygame.event.get():
                 if event.type == QUIT:
-                    pygame.quit()
+                    pygame.quit(main.py)
                     exit()
                 if event.type == pygame.MOUSEBUTTONDOWN:
                     reiniciar_jogo()

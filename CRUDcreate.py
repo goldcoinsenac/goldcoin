@@ -1,10 +1,10 @@
 import mysql.connector
 
-from conexao import *
 import GoldCoinsCadastro
+from conexao import *
 #input de dados
 
-add_nome_completo = GoldCoinsCadastro.Ui_TelaCadastro.setupUi()
+add_nome_completo = input(str('Nome completo: '))
 ddd = int(input('Digite o DDD: ' ))
 telefone = int(input('Digite o telefone: ' ))
 add_email = input(str('Adicione o email: '))
@@ -19,8 +19,10 @@ def numConcat(ddd, telefone):
 add_telefone = (numConcat(ddd, telefone))
 
 #Create
-try:
-    comando_create = f"""INSERT INTO cadastros (nome_completo, telefone, email) VALUES ('{add_nome_completo}', '55{add_telefone}', '{add_email}')""" #comando do SQL pra inserir informação no BD
+def cadastrar (add_nome_completo,add_telefone, add_email):
+    try:
+    comando_create = f"""INSERT INTO cadastros (nome_completo, telefone, email) VALUES ('{add_nome_completo}', '+
+    55{add_telefone}', '{add_email}')""" #comando do SQL pra inserir informação no BD
     cursor.execute (comando_create) #cursor vai excutar o comando
     conexao.commit() #quando edita o banco de dados
 except mysql.connector.Error as Err:
