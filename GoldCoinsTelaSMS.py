@@ -121,43 +121,43 @@ class Ui_TelaSMS(object):
         self.label_8.setStyleSheet("font: 16pt \"MS Shell Dlg 2\";\n"
 "color: rgb(251, 190, 119);")
         self.label_8.setObjectName("label_8")
-        self.checkBox = QtWidgets.QCheckBox(self.container_3)
-        self.checkBox.setGeometry(QtCore.QRect(60, 160, 121, 31))
-        self.checkBox.setStyleSheet("font: 14pt \"MS Shell Dlg 2\";\n"
+        self.check_dolar = QtWidgets.QCheckBox(self.container_3)
+        self.check_dolar.setGeometry(QtCore.QRect(60, 160, 121, 31))
+        self.check_dolar.setStyleSheet("font: 14pt \"MS Shell Dlg 2\";\n"
 "color: rgb(72, 63, 51);\n"
 "")
-        self.checkBox.setObjectName("checkBox")
-        self.checkBox_2 = QtWidgets.QCheckBox(self.container_3)
-        self.checkBox_2.setGeometry(QtCore.QRect(60, 210, 121, 31))
-        self.checkBox_2.setStyleSheet("font: 14pt \"MS Shell Dlg 2\";\n"
-"color: rgb(72, 63, 51);\n"
-"\n"
-"")
-        self.checkBox_2.setObjectName("checkBox_2")
-        self.checkBox_3 = QtWidgets.QCheckBox(self.container_3)
-        self.checkBox_3.setGeometry(QtCore.QRect(60, 260, 121, 31))
-        self.checkBox_3.setStyleSheet("font: 14pt \"MS Shell Dlg 2\";\n"
+        self.check_dolar.setObjectName("check_dolar")
+        self.check_euro = QtWidgets.QCheckBox(self.container_3)
+        self.check_euro.setGeometry(QtCore.QRect(60, 210, 121, 31))
+        self.check_euro.setStyleSheet("font: 14pt \"MS Shell Dlg 2\";\n"
 "color: rgb(72, 63, 51);\n"
 "\n"
 "")
-        self.checkBox_3.setObjectName("checkBox_3")
+        self.check_euro.setObjectName("check_euro")
+        self.check_bitcoin = QtWidgets.QCheckBox(self.container_3)
+        self.check_bitcoin.setGeometry(QtCore.QRect(60, 260, 121, 31))
+        self.check_bitcoin.setStyleSheet("font: 14pt \"MS Shell Dlg 2\";\n"
+"color: rgb(72, 63, 51);\n"
+"\n"
+"")
+        self.check_bitcoin.setObjectName("check_bitcoin")
         self.label_9 = QtWidgets.QLabel(self.container_3)
         self.label_9.setGeometry(QtCore.QRect(30, 340, 611, 41))
         self.label_9.setStyleSheet("font: 16pt \"MS Shell Dlg 2\";\n"
 "color: rgb(251, 190, 119);")
         self.label_9.setObjectName("label_9")
-        self.radioButton = QtWidgets.QRadioButton(self.container_3)
-        self.radioButton.setGeometry(QtCore.QRect(60, 410, 231, 31))
-        self.radioButton.setStyleSheet("font: 14pt \"MS Shell Dlg 2\";\n"
+        self.escolha_finaldia = QtWidgets.QRadioButton(self.container_3)
+        self.escolha_finaldia.setGeometry(QtCore.QRect(60, 410, 231, 31))
+        self.escolha_finaldia.setStyleSheet("font: 14pt \"MS Shell Dlg 2\";\n"
 "color: rgb(72, 63, 51);\n"
 "")
-        self.radioButton.setObjectName("radioButton")
-        self.radioButton_2 = QtWidgets.QRadioButton(self.container_3)
-        self.radioButton_2.setGeometry(QtCore.QRect(60, 460, 231, 31))
-        self.radioButton_2.setStyleSheet("font: 14pt \"MS Shell Dlg 2\";\n"
+        self.escolha_finaldia.setObjectName("escolha_finaldia")
+        self.escolha_sexta = QtWidgets.QRadioButton(self.container_3)
+        self.escolha_sexta.setGeometry(QtCore.QRect(60, 460, 231, 31))
+        self.escolha_sexta.setStyleSheet("font: 14pt \"MS Shell Dlg 2\";\n"
 "color: rgb(72, 63, 51);\n"
 "")
-        self.radioButton_2.setObjectName("radioButton_2")
+        self.escolha_sexta.setObjectName("escolha_sexta")
         self.horizontalLayout_2.addWidget(self.container_3)
         self.verticalLayout.addWidget(self.container)
         self.bottom = QtWidgets.QFrame(self.centralwidget)
@@ -186,11 +186,11 @@ class Ui_TelaSMS(object):
         self.BotaoVoltar.setText(_translate("TelaSMS", "Voltar"))
         self.BotaoProsseguir.setText(_translate("TelaSMS", "Prosseguir"))
         self.label_8.setText(_translate("TelaSMS", "Selecione suas moedas:"))
-        self.checkBox.setText(_translate("TelaSMS", "Dólar"))
-        self.checkBox_2.setText(_translate("TelaSMS", "Euro"))
-        self.checkBox_3.setText(_translate("TelaSMS", "Bitcoin"))
+        self.check_dolar.setText(_translate("TelaSMS", "Dólar"))
+        self.check_euro.setText(_translate("TelaSMS", "Euro"))
+        self.check_bitcoin.setText(_translate("TelaSMS", "Bitcoin"))
         self.label_9.setText(_translate("TelaSMS", "Com que frequência deseja receber as mensagens?"))
-        self.radioButton.setText(_translate("TelaSMS", "Ao final de cada dia"))
-        self.radioButton_2.setText(_translate("TelaSMS", "Apenas às sextas"))
+        self.escolha_finaldia.setText(_translate("TelaSMS", "Ao final do dia"))
+        self.escolha_sexta.setText(_translate("TelaSMS", "Apenas às sextas"))
         self.label_5.setText(_translate("TelaSMS", "2022 CopyRight © Solutech"))
 #import images_rc

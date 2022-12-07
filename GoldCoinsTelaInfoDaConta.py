@@ -10,7 +10,6 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
-
 class Ui_TelaInfoConta(object):
     def setupUi(self, TelaInfoConta):
         TelaInfoConta.setObjectName("TelaInfoConta")
@@ -84,11 +83,11 @@ class Ui_TelaInfoConta(object):
 "color: rgb(72, 63, 51);\n"
 "font-weight: bold;")
         self.label_12.setObjectName("label_12")
-        self.lineEdit = QtWidgets.QLineEdit(self.container_3)
-        self.lineEdit.setGeometry(QtCore.QRect(399, 27, 281, 31))
-        self.lineEdit.setStyleSheet("border: 1px solid #81BAFD;\n"
+        self.input_numerotelefone = QtWidgets.QLineEdit(self.container_3)
+        self.input_numerotelefone.setGeometry(QtCore.QRect(399, 27, 281, 31))
+        self.input_numerotelefone.setStyleSheet("border: 1px solid #81BAFD;\n"
 "border-radius: 5px;")
-        self.lineEdit.setObjectName("lineEdit")
+        self.input_numerotelefone.setObjectName("input_numerotelefone")
         self.label_13 = QtWidgets.QLabel(self.container_3)
         self.label_13.setGeometry(QtCore.QRect(30, 344, 201, 31))
         self.label_13.setStyleSheet("font: 12pt \"MS Shell Dlg 2\";\n"
@@ -223,7 +222,7 @@ class Ui_TelaInfoConta(object):
 
         self.retranslateUi(TelaInfoConta)
         self.BotaoSair.clicked.connect(TelaInfoConta.close) # type: ignore
-        self.BotaoConfirmar.clicked.connect(self.lineEdit.update) # type: ignore
+        self.BotaoConfirmar.clicked.connect(self.input_numerotelefone.update) # type: ignore
         QtCore.QMetaObject.connectSlotsByName(TelaInfoConta)
 
     def retranslateUi(self, TelaInfoConta):

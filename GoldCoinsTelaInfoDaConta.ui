@@ -215,7 +215,7 @@ font-weight: bold;</string>
         <string>Informe o seu número de telefone:</string>
        </property>
       </widget>
-      <widget class="QLineEdit" name="lineEdit">
+      <widget class="QLineEdit" name="input_numerotelefone">
        <property name="geometry">
         <rect>
          <x>399</x>
@@ -557,7 +557,7 @@ font-weight: bold;</string>
   <connection>
    <sender>BotaoConfirmar</sender>
    <signal>clicked()</signal>
-   <receiver>lineEdit</receiver>
+   <receiver>input_numerotelefone</receiver>
    <slot>update()</slot>
    <hints>
     <hint type="sourcelabel">

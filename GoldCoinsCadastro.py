@@ -11,12 +11,14 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
 from GoldCoinsTelaSMS import Ui_TelaSMS
 
+
 class Ui_TelaCadastro(object):
     def OpenMessagesConfig(self):
         self.window = QtWidgets.QMainWindow()
         self.ui = Ui_TelaSMS()
         self.ui.setupUi(self.window)
         self.window.show()
+
     def setupUi(self, TelaCadastro):
         TelaCadastro.setObjectName("TelaCadastro")
         TelaCadastro.resize(1005, 750)
@@ -103,22 +105,22 @@ class Ui_TelaCadastro(object):
         self.frame.setFrameShape(QtWidgets.QFrame.StyledPanel)
         self.frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame.setObjectName("frame")
-        self.textEdit = QtWidgets.QTextEdit(self.container_3)
-        self.textEdit.setGeometry(QtCore.QRect(30, 150, 481, 31))
-        self.textEdit.setAutoFillBackground(True)
-        self.textEdit.setStyleSheet("font: 8pt \"MS Shell Dlg 2\";")
-        self.textEdit.setObjectName("textEdit")
+        self.input_nome = QtWidgets.QTextEdit(self.container_3)
+        self.input_nome.setGeometry(QtCore.QRect(30, 150, 481, 31))
+        self.input_nome.setAutoFillBackground(True)
+        self.input_nome.setStyleSheet("font: 8pt \"MS Shell Dlg 2\";")
+        self.input_nome.setObjectName("input_nome")
         self.label_6 = QtWidgets.QLabel(self.container_3)
         self.label_6.setGeometry(QtCore.QRect(30, 220, 221, 31))
         self.label_6.setStyleSheet("font: 14pt \"MS Shell Dlg 2\";\n"
 "color: rgb(72, 63, 51);")
         self.label_6.setObjectName("label_6")
-        self.textEdit_2 = QtWidgets.QTextEdit(self.container_3)
-        self.textEdit_2.setGeometry(QtCore.QRect(30, 260, 481, 31))
-        self.textEdit_2.setObjectName("textEdit_2")
-        self.textEdit_3 = QtWidgets.QTextEdit(self.container_3)
-        self.textEdit_3.setGeometry(QtCore.QRect(30, 370, 481, 31))
-        self.textEdit_3.setObjectName("textEdit_3")
+        self.input_numero = QtWidgets.QTextEdit(self.container_3)
+        self.input_numero.setGeometry(QtCore.QRect(30, 260, 481, 31))
+        self.input_numero.setObjectName("input_numero")
+        self.input_email = QtWidgets.QTextEdit(self.container_3)
+        self.input_email.setGeometry(QtCore.QRect(30, 370, 481, 31))
+        self.input_email.setObjectName("input_email")
         self.label_7 = QtWidgets.QLabel(self.container_3)
         self.label_7.setGeometry(QtCore.QRect(30, 330, 221, 31))
         self.label_7.setStyleSheet("font: 14pt \"MS Shell Dlg 2\";\n"
@@ -168,7 +170,7 @@ class Ui_TelaCadastro(object):
         self.label_4.setText(_translate("TelaCadastro", "Cadastro"))
         self.label_5.setText(_translate("TelaCadastro", "Nome:"))
         self.BotaoSair.setText(_translate("TelaCadastro", "Sair"))
-        self.textEdit.setHtml(_translate("TelaCadastro", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+        self.input_nome.setHtml(_translate("TelaCadastro", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8pt; font-weight:400; font-style:normal;\">\n"

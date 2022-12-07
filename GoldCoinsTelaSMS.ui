@@ -258,7 +258,7 @@ color: rgb(251, 190, 119);</string>
            <string>Selecione suas moedas:</string>
           </property>
          </widget>
-         <widget class="QCheckBox" name="checkBox">
+         <widget class="QCheckBox" name="check_dolar">
           <property name="geometry">
            <rect>
             <x>60</x>
@@ -276,7 +276,7 @@ color: rgb(72, 63, 51);
            <string>Dólar</string>
           </property>
          </widget>
-         <widget class="QCheckBox" name="checkBox_2">
+         <widget class="QCheckBox" name="check_euro">
           <property name="geometry">
            <rect>
             <x>60</x>
@@ -295,7 +295,7 @@ color: rgb(72, 63, 51);
            <string>Euro</string>
           </property>
          </widget>
-         <widget class="QCheckBox" name="checkBox_3">
+         <widget class="QCheckBox" name="check_bitcoin">
           <property name="geometry">
            <rect>
             <x>60</x>
@@ -331,7 +331,7 @@ color: rgb(251, 190, 119);</string>
            <string>Com que frequência deseja receber as mensagens?</string>
           </property>
          </widget>
-         <widget class="QRadioButton" name="radioButton">
+         <widget class="QRadioButton" name="escolha_finaldia">
           <property name="geometry">
            <rect>
             <x>60</x>
@@ -346,10 +346,10 @@ color: rgb(72, 63, 51);
 </string>
           </property>
           <property name="text">
-           <string>Ao final de cada dia</string>
+           <string>Ao final do dia</string>
           </property>
          </widget>
-         <widget class="QRadioButton" name="radioButton_2">
+         <widget class="QRadioButton" name="escolha_sexta">
           <property name="geometry">
            <rect>
             <x>60</x>

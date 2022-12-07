@@ -227,7 +227,7 @@ background-repeat: norepeat;</string>
            <enum>QFrame::Raised</enum>
           </property>
          </widget>
-         <widget class="QTextEdit" name="textEdit">
+         <widget class="QTextEdit" name="input_nome">
           <property name="geometry">
            <rect>
             <x>30</x>
@@ -267,7 +267,7 @@ color: rgb(72, 63, 51);</string>
            <string>Número de telefone:</string>
           </property>
          </widget>
-         <widget class="QTextEdit" name="textEdit_2">
+         <widget class="QTextEdit" name="input_numero">
           <property name="geometry">
            <rect>
             <x>30</x>
@@ -277,7 +277,7 @@ color: rgb(72, 63, 51);</string>
            </rect>
           </property>
          </widget>
-         <widget class="QTextEdit" name="textEdit_3">
+         <widget class="QTextEdit" name="input_email">
           <property name="geometry">
            <rect>
             <x>30</x>
